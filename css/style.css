@@ -6,7 +6,7 @@
 
 
 .navbar{
-    background-color: rgb(23, 18, 54);
+    background-color: rgba(0, 0, 0, 0.639);
     display: flex;
     justify-content: space-between;
     padding: 24px;
@@ -34,4 +34,11 @@
 }
 .menu-nav:hover{
     background-color: rgb(205, 1, 1); 
+}
+.header img{
+    margin-top: -300px;
+    position: relative;
+    z-index: -1;
+
+
 }
