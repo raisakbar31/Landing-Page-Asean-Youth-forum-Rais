@@ -30,4 +30,4 @@
 //]]>
 
 // ===========loader===============
-$(window).load(function() { $("#loading").delay(1000).fadeOut("slow"); } )
+// $(window).load(function() { $("#loading").delay(1000).fadeOut("slow"); } )
