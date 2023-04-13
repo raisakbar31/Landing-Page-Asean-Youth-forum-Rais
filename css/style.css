@@ -427,26 +427,20 @@ footer{
 }
 }
 /* ================loader============== */
-#loader { 
-    border: 12px solid #f3f3f3; 
-    border-radius: 50%; 
-    border-top: 12px solid #444444; 
-    width: 70px; 
-    height: 70px; 
-    animation: spin 1s linear infinite; 
-} 
- 
-@keyframes spin { 
-    100% { 
-        transform: rotate(360deg); 
-    } 
-} 
- 
-.center { 
-    position: absolute; 
-    top: 0; 
-    bottom: 0; 
-    left: 0; 
-    right: 0; 
-    margin: auto; 
-} 
+#loading {
+	position: fixed;
+    text-align: center;
+    padding-top: 20%;
+    background-color: #000;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://simpletexting.com/wp-content/themes/new_simpletexting/images/gif/loading-ttcredesign.gif) 50% no-repeat #fff;
+
+}
+.container{
+	width: 728px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #000000;
+}
