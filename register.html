@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./image/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<title>Registration Page | Youth-forum</title>
+</head>
+<body class="body-regiter">
+    <div class="navbar" style="margin-top: -100px;">
+        <div class="judul">
+            <img class="logo" src="./image/favicon/favicon.png" alt="logo">
+            ASEAN YOUTH FORUM
+        </div>
+        </div>
+    <!-- ===================================== -->
+	<div class="container-register">
+		<h2>Registration</h2>
+		<form name="registrationForm" onsubmit="return validateRegistrationForm()" method="post">
+			<label for="username"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="username" required>
+
+			<label for="email"><b>Email</b></label>
+			<input type="email" placeholder="Enter Email" name="email" required>
+
+			<label for="password"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required>
+
+			<label for="confirmPassword"><b>Confirm Password</b></label>
+			<input type="password" placeholder="Confirm Password" name="confirmPassword" required>
+
+			<button class="button-login" type="submit">Register</button><br><br>
+            <a style="text-decoration: none;color: #F87600;" href="index.html">Proceed without logging in...</a><br><hr>
+            <a style="text-decoration: none;color: #00ac1a;" href="login.html">already have an account...</a>
+
+		</form>
+	</div>
+<!-- ======================================footer============== -->
+
+<footer>
+    <div class="footer-content">
+        <h3> ASEAN Youth Forum (AYF)</h3>
+        <p>The ASEAN Youth Forum (AYF) is a dynamic platform that empowers young people in the ASEAN region to engage in meaningful dialogue, cooperation, and action. As a member of the AYF, you can develop your leadership skills, expand your network, and contribute to building a more united and prosperous ASEAN community. Through a range of activities, such as dialogues, training sessions, and community projects, the AYF provides opportunities for young people to share their ideas, experiences, and perspectives, and to work together towards common goals. Join the AYF today and be part of the vibrant and diverse community of young ASEAN leaders shaping the future of our region!</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/rais.akbar3110/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/raisakbar31"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.youtube.com/@RAISSUND"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/sikang_is/?hl=id"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy; <a href="#">sikang_is</a>  </p>
+    </div>
+
+</footer>
+
+<!-- ---------------------------------end----------------------------------- -->
+<script src="./js/main.js"></script>
+</body>
+</html>

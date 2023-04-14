@@ -359,7 +359,7 @@ footer{
     line-height: 3rem;
 }
 .footer-content p{
-    max-width: 500px;
+    max-width: 800px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
@@ -443,3 +443,97 @@ te
 	padding: 20px;
 	background: #000000;
 } */
+/* ==========================login===================== */
+.body-login{
+    background-color: #000;
+}
+  
+  .container-login-page {
+    margin: 100px auto;
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #dcdcdc;
+  }
+  .container-login-page .button-login{
+    margin-bottom: 24px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button-register1{
+    background-color: red;
+    padding: 12px 43%;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: color .4s ease;
+
+  }
+  .button-register1:hover{
+    transition: color .4s ease;
+    background-color: rgb(163, 0, 0);
+  }
+  /* ===================register======================= */
+  .body-regiter {
+    background-color: #000000;
+  }
+  
+
+  .container-register {
+    margin: 80px auto;
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #dcdcdc;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
